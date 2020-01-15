@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const secret = require('../config/env.config').jwt_secret;
 
-const ADMIN_PERMISSION = 2048;
+const ADMIN_PERMISSION = 777;
 
 exports.minimumPermissionLevelRequired = (required_permission_level) => {
     return (req, res, next) => {
