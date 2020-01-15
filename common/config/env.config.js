@@ -8,10 +8,9 @@ module.exports = {
     "environment": "dev",
     "permissionLevels": {
         "NORMAL_USER": 1,
-        "PAID_USER": 4,
-        "ADMIN": 2048
+        "ADMIN": 777
     },
-    "ADD_READER": 1,
+    "ADD_READER": 3,
     "EDIT_READER": 2,
     "DELETE_READER": 4,
     "ADD_BOOK": 8,
